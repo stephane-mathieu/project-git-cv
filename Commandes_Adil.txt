@@ -1,0 +1,7 @@
+git clone https://github.com/stephane-mathieu/project-git-cv.git
+git branch
+git switch cv4
+git add lien_du_fichier4.png
+git commit -m "cv4"
+git push
+git push --set-upstream origin cv4
