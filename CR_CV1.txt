@@ -1,0 +1,6 @@
+git clone https://github.com/stephane-mathieu/project-git-cv.git
+git checkout -b cv1
+git branch			# Pour vérifier dans quelle branche je me situe
+git add lien_du_fichier1.png
+git commit -m "Commit cv1"
+git push
