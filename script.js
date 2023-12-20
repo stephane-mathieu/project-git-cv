@@ -4,7 +4,7 @@ function showCV(cvNumber) {
 
     // Vous pouvez remplacer le contenu des CVs par vos propres données
     const cvContent = `<h2>CV ${cvNumber}</h2>
-                       <img src="lien_de_votre_image" alt="Photo du CV ${cvNumber}">
+                       <img src="lien_de_votre_image${cvNumber}.png" alt="Photo du CV ${cvNumber}">
                        <p>Informations sur le CV ${cvNumber}...</p>`;
 
     cvContainer.innerHTML = cvContent;
